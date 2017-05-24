@@ -1,0 +1,10 @@
+10.03.2017  21:33:35 [main] INFO  by.belstu.poit.dimakot.main.Main  - Starting program_______________________
+10.03.2017  21:34:43 [main] INFO  by.belstu.poit.dimakot.main.Main  - 
+Starting program_______________________
+10.03.2017  21:38:54 [main] INFO  by.belstu.poit.dimakot.main.Main  - Starting program_______________________
+10.03.2017  21:38:54 [main] INFO  by.belstu.poit.dimakot.main.Main  - Create Decan(singleton)
+10.03.2017  21:38:54 [main] INFO  by.belstu.poit.dimakot.main.Main  - Create first(Potok) by FactoryMethod
+10.03.2017  21:38:54 [main] INFO  by.belstu.poit.dimakot.main.Main  - create and Add students to potok
+10.03.2017  21:38:54 [main] INFO  by.belstu.poit.dimakot.main.Main  - Counter of courses
+10.03.2017  21:38:54 [main] INFO  by.belstu.poit.dimakot.main.Main  - Sorting by name
+10.03.2017  21:38:54 [main] INFO  by.belstu.poit.dimakot.main.Main  - End Program___________
