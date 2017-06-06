@@ -70,7 +70,7 @@ public class Decan extends Creator {
         val.GetMyPotok().sort(new Comparator<Student>() {
             @Override
             public int compare(Student a, Student b) {
-                return (int)(a.zch.getAver_mark() - b.zch.getAver_mark());
+                return 0;
             }
         });
     }

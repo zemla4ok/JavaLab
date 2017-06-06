@@ -2,6 +2,7 @@ package by.belstu.poit.dimakot.student;
 
 import by.belstu.poit.dimakot.enums.Spec;
 import by.belstu.poit.dimakot.enums.Form;
+import com.sun.javaws.exceptions.InvalidArgumentException;
 
 import java.net.SocketPermission;
 
@@ -14,6 +15,14 @@ public class Student implements Actions {
         zch = new Zach(pMark);
     }
 
+    public void mk42(){
+        this.zch.mk4();
+    }
+
+    public Zach getZch(){
+        return this.zch;
+    }
+
     String name;
 
     public String getName() {
@@ -24,15 +33,18 @@ public class Student implements Actions {
         this.name = name;
     }
 
-    public Zach zch;
+    private Zach zch;
     int course;
 
     public int getCourse() {
         return course;
     }
 
-    public void setCourse(int course) {
-        this.course = course;
+    public void setCourse(int course) throws InvalidArgumentException {
+        if (course > 0 && course < 5)
+            this.course = course;
+        else
+            throw new InvalidArgumentException(new String[]{"asd"});
     }
 
     Form form;
@@ -83,6 +95,10 @@ public class Student implements Actions {
 
         public double getAver_mark() {
             return aver_mark;
+        }
+
+        public void mk4() {
+            this.aver_mark *= 2;
         }
     }
 }
