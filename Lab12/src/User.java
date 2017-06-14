@@ -21,6 +21,7 @@ public class User extends HttpServlet {
             Cookie cookie = new Cookie("admin", "ADMIN  " + count++ + "   " + request.getSession().getLastAccessedTime());
             cookie.setMaxAge(60*60);
             response.addCookie(cookie);
+
             response.sendRedirect("ServletSesAdmin");
         }
         else if(request.getParameter("userName").equals("user") &&

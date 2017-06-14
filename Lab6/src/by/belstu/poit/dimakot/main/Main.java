@@ -1,9 +1,5 @@
 package by.belstu.poit.dimakot.main;
 
-import by.belstu.poit.dimakot.decan.Decan;
-import by.belstu.poit.dimakot.enums.Form;
-import by.belstu.poit.dimakot.enums.Spec;
-import by.belstu.poit.dimakot.potok.Potok;
 import by.belstu.poit.dimakot.student.Student;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;

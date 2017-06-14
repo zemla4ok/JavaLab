@@ -1,0 +1,13 @@
+<books>
+   <book>
+      <name>OOP</name>
+      <author>Patsei NV</author>
+      <price>999</price>
+   </book>
+   
+   <book>
+      <name>Prog Lang</name>
+      <author>Smelov VV</author>
+      <price>100</price>
+   </book>
+</books>

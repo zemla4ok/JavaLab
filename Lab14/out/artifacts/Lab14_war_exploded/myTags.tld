@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>MyTags</short-name>
+    <uri>KDV</uri>
+
+    <tag>
+        <name>KDVLabledTextField</name>
+        <tag-class>tags.KDVLabledTextField</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>value</name>
+            <type>java.lang.String</type>
+            <required>true</required>
+        </attribute>
+
+        <attribute>
+            <name>name</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>label</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>KDVSubmit</name>
+        <tag-class>tags.KDVSubmit</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+
+    <tag>
+        <name>KDVTable</name>
+        <tag-class>tags.KDVTable</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+</taglib>
